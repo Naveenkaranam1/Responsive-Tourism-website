@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bg{
+    background-color: black;
+}
+
+.nav-head{
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    color: white;
+    font-size: 18px;
+}
+
+.carousel-images{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.carousel-heading{
+    font-size: 36px;
+}
+
+.carousel-card{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 200px;
+}
+
+.top-destinations-head{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.destination-images{
+    height: 40vh;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.destination-card:hover{
+    transform: scale(1.1);
+}
+
+.luxury-container{
+    background-color: yellow;
+    padding: 20px;
+}
+
+.luxury-img-container:hover{
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .aboutus-image{
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .aboutus-heading{
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .aboutus-para{
+    font-size: 20px;
+  }
+
+.footer-container{
+    background-color: gray;
+    height: 40vh;
+}
+
+.logo-image{
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.footer-head{
+    font-size: 36px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: start;
+}
+
+
+.footer-para{
+    font-size: 18px;
+    color: whitesmoke;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.footer-leftcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid whitesmoke;
+}
+
+.links-container{
+    color: whitesmoke;
+}
+
+.para{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
