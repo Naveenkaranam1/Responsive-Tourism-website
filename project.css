@@ -9,7 +9,7 @@
 }
 
 .nav-bg{
-    background-color: black;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav-head{
@@ -20,7 +20,13 @@
     align-items: center;
 }
 
-
+.menu-icon{
+    background-color: whitesmoke;
+    height: 36px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
 
 .list-item{
     color: white;
@@ -45,7 +51,10 @@
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    min-width: 200px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .top-destinations-head{
@@ -69,7 +78,7 @@
 }
 
 .destination-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.09);
 }
 
 .luxury-container{
@@ -112,7 +121,8 @@
 
 .footer-container{
     background-color: gray;
-    height: 40vh;
+    min-height: 40vh;
+    margin-top: 50px;
 }
 
 .logo-image{
@@ -144,6 +154,10 @@
     border-right: 2px solid whitesmoke;
 }
 
+.footer-left-card{
+    display: flex;
+}
+
 .links-container{
     color: whitesmoke;
 }
@@ -152,4 +166,40 @@
     color: whitesmoke;
     font-size: 18px;
     text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .top-destinations-head{
+        font-size: 36px;
+    }
+
+    .footer-head{
+        font-size: 22px;
+    }
+
+    .footer-para{
+        font-size: 13px;
+        width: 100px;
+        align-self: flex-start;
+    }
+
+    .aboutus-heading{
+        font-size: 36px;
+        margin-top: 100px;
+    }
+
+    .aboutus-para{
+        font-size: 16px;
+    }
+
+    .footer-left-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .para{
+        font-size: 18px;
+    }
+
 }
