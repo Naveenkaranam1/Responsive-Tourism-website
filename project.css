@@ -51,7 +51,7 @@
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +168,24 @@
     text-align: center;
 }
 
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input-element{
+    border-radius: 3px;
+    border-width: 0px;
+    width: 60%;
+    margin: 5px;
+}
+
 @media screen and (max-width: 576px) {
+    .carousel-heading{
+        font-size: 24px;
+    }
+
     .top-destinations-head{
         font-size: 36px;
     }
@@ -200,6 +217,10 @@
 
     .para{
         font-size: 18px;
+    }
+
+    .form-input-element{
+        width: 100%;
     }
 
 }
